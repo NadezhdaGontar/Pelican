@@ -2,4 +2,95 @@
 @import"fonts";
 @import"reset";
 @import"global";
+
+.header{
+  &__top{
+    background-color: #000;   
+    padding: 10px 20px;
+    
+        
+   }
+   &__menu-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+   }
+  &__menu-list{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 50px;
+  }
+   
+  &__menu-link{
+    color: $border;
+    font-size: 22px;
+    @extend %nunito-600;
+    margin-right: 60px;
+  }
+  &__menu-link--active{
+    color: $border;
+    border-bottom: 1px solid $border;
+  }
+   &__menu-link--active:hover{
+    border-bottom: 1px solid #fff;
+   }
+   &__menu-link:hover{
+    color: #fff;
+    
+  }
+    &__contact-link {
+    margin-right: 15px;
+    text-align: center;
+
+    
+  }
+  &__contact-tel{
+    color: $border;
+    @extend %nunito-600;
+    font-size: 22px;
+
+  }
+   &__contact-tel:hover{
+    color: #fff;
+   }
+    
+  &__bottom{
+  height: 560px;
+  background-image: url(../images/pelic.jpg);
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  }
+ }
+
+.footer{
+   background-color: #000;   
+   padding: 20px;
+   @extend %nunito-600;
+   color: #fff;
+   font-size: 22px;
+
+  &__contacts{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__contacts-tel a,
+  &__contacts-email a {
+    @extend %nunito-600;
+    color: #fff;
+    font-size: 22px;
+  }
+  &__contacts-tel a:hover,
+  &__contacts-email a:hover {
+    color: $border;
+  }
+  &__contacts-email a{
+margin-right: 15px;
+ }
+}
+
 @import"media";
