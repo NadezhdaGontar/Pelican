@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   font-size: 19px;
   line-height: 30px;
- /* @extend %monserrat-400;*/
+  @extend %nunito-400;
   
 
 }
@@ -18,4 +18,11 @@ body {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.title{
+ @extend %nunito-600;
+ font-size: 38px;
+ padding-bottom: 30px;
+ text-align: center;
+  
 }
