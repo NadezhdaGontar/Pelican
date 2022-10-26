@@ -96,9 +96,9 @@
    }
  }
  .services{
-  background-color: #edf1f4;
-  padding: 40px;
-  margin-bottom: 60px;
+   background-color: #edf1f4;
+   padding: 40px 40px 60px;
+   
 
   &__inner{
     display: flex;
@@ -153,8 +153,39 @@
     background-color: $default;
     font-weight: 600;
  }
-}
 
+}
+.product-worth {
+   padding-top: 50px;
+   background-color: #f6ebed;
+   &__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+   }
+   &__item{
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
+   }
+   &__item-text::after{
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 36px;
+    width: 6px;
+    height: 6px;
+    background-color: #c53d6b;
+    border-radius: 50%;
+   }
+   &__img{
+    border-radius: 20px;
+max-width: 500px;
+max-height: 300px;
+   }
+
+}
 .footer{
    background-color: #000;   
    padding: 20px;
@@ -183,5 +214,6 @@
     margin-right: 15px;
  }
 }
+
 
 @import"media";
