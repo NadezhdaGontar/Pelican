@@ -9,23 +9,25 @@
 </head>
 <body>
   <header class="header">
+    <div class="container">
      <div class="header__inner">
         <div class="header__top">
            <div class="header__menu-inner">
-             <!--<button class="header__menu-btn">
+             <button class="header__menu-btn">
               <span></span>
-             </button>  -->
+             </button> 
              <ul class="header__menu-list">
                 <li class="header__menu-item">
                    <a class="header__menu-link header__menu-link--active" href="#about">Главная</a>
                  </li>
-                 <li class="header__menu-list">
-                   <a class="header__menu-link" href="#about">Мастер-классы</a>
+                 <li class="header__menu-item">
+                   <a class="header__menu-link" href="#services">Мастер-классы</a>
                  </li>
-                 <li class="header__menu-list">
-                   <a class="header__menu-link" href="#about">Контакты
+                  <li class="header__menu-item">
+                   <a class="header__menu-link" href="#footer">Контакты
                    </a>
                   </li>
+                
                 </ul>
                 <div class="header__contact-link">
                   <a class="header__contact-tel" href="tel:+9000163506">+7-900-016-35-06</a>
@@ -33,15 +35,19 @@
               </div>
             </div>
           </div>
+        </div>
         <div class="header__bottom">
       </div>
     </header>
     <main class="main">
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h1 class="about__title">
-          Добро пожаловать в Pelican! <!--Студия кондитерского и кулинарного мастерства-->
+          Добро пожаловать в Pelican! 
           </h1>
+          <h3 class="about__subtitle">
+            Студия кулинарного и кондитерского мастерства
+          </h3>
         <div class="about__inner">  
           <p class="about__description-text">
               Три  с половиной года мы проводим кулинарные и кондитерские мастер-классы, любим то, что делаем и гордимся результатом нашей работы! Ежедневно мы получаем отзывы от наших гостей и участников! Мечтаем, чтобы в каждом доме была любовь к приготовлению еды и царила гармония на кухне!
@@ -50,7 +56,7 @@
         </div>
         </div>
       </section>
-      <section class="services">
+     <section class="services" id="services">
         <div class="container">
           <h2 class="title">Рады предложить вам следующие услуги:</h2>
           <div class="services__inner">
@@ -79,14 +85,14 @@
               Мастер-классы выходного дня
              </h3>
              <p class="services__text">
-              Наши мастер-классы идеально подходят тем, кто давно хотел научиться делать что-то новое для себя. После приготовления обязательно продегустируем результаты своих стараний :-)
+                Наши мастер-классы идеально подходят тем, кто давно хотел научиться делать что-то новое для себя. После приготовления обязательно продегустируем результаты своих стараний :-)
              </p>
              <a href="#" class="services__link">Подробнее</a>
            </div>
           </div>
         </div>
       </section>
-      <section class="product-worth">
+      <section class="product-worth" id="about">
         <div class="container">
           <h2 class="title">С помощью наших мастер-классов вы научитесь:</h2>
           <div class="product-worth__inner">
@@ -113,10 +119,50 @@
             <img class="product-worth__img" src="images/3.png" alt="">
           </div>
         </div>
-      </section>
-
+     </section>
+    <!-- <section class="pictures">
+      <div class="container">
+        <div class="pictures__inner">
+        <a class="pictures-img" href="#">
+          <img src="images/10.jpg" alt="Изображение 1">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/11.jpg" alt="Изображение 2">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/12.jpg" alt="Изображение 3">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/13.jpg" alt="Изображение 4">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/14.jpg" alt="Изображение 5">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/15.jpg" alt="Изображение 6">
+        </a>
+        </div>
+      </div>
+     </section>
+     <section class="contact-form"> 
+      <div class="container">
+        <div class="contact-form__inner">
+          <p class="contact-form__text">
+            Если у вас появились вопросы - оставьте свой номер телефона и мы свяжемся с вами.
+          </p>
+          <form class="form">
+            <input class="form__input" type="text" placeholder="Имя*">
+            <input class="form__input" type="text" placeholder="Телефон*">
+            <input class="form__input" type="text" placeholder="EMAIL*">
+            <button class="form__btn" type="submit">
+              Отправить данные
+            </button>
+          </form>
+        </div>
+      </div>
+     </section> -->
     </main>
-    <footer class="footer">
+    <!--<footer class="footer" id="footer">
         <div class="footer__contacts">
           <div class="footer__contacts-addr">
             <span>г. Тверь, проспект Калинина, 14 а</span>
@@ -128,7 +174,8 @@
             <a href="mailto:pipa@mail.com">pipa@mail.com</a>
           </div>
         </div>
-     </footer>
+     </footer>-->
+   <script src="js/jquery-3.6.0.min.js"></script>
    <script src="js/main.min.js"></script> 
 </body>
 </html>
