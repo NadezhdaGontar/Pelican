@@ -4,6 +4,7 @@
 
 }
 .header{
+  z-index: 999;
   &__menu-btn{
    display: block;
    position: absolute;
@@ -148,7 +149,35 @@
     
     }
   }
-
+.contact-form{
+  &__inner{
+    display: block;
+    padding: 30px;
+  }
+   &__text{
+    width: 100%;
+    margin-right: 0;
+    padding-right: 10px;
+    padding-bottom: 50px;
+   }
+ }
+.form{
+  width: 100%;
+  &__input{
+    display: block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+ }
+ .footer{
+   font-size: 20px;
+    &__contacts{
+    display: block;
+    text-align: center;
+  
+  }
+ }
 }
 @media (max-width: 500px) {
 .header{
