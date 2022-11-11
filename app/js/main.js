@@ -22,8 +22,9 @@ function burgerMenu(selector) {
 
   function toggleMenu(){
     menu.toggleClass('active');/*класс, который добавляется чтобы работало меню*/
+
     if(menu.hasClass('active')) { /*класс, который добавляется чтобы работало меню*/
-      $('body').css('overflow', hidden);
+      $('body').css('overflow', 'hidden');
     }else {
       $('body').css('overflow', 'visible');
     }
