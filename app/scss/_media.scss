@@ -73,7 +73,7 @@
 }
 
  &__menu-list{
-  position: fixed;
+   position: fixed;
    left: -100%;
    top: 60px;
    display: flex;
@@ -136,19 +136,15 @@
 
   }
   .product-worth {
-     padding-top: 20px;
+    z-index: 1;
+    padding-top: 20px;
     padding-bottom: 10px;
     &__inner{
-      display: block;
-     
-      
-      
-    }
-    
-    &__img{
+      display: block;     
+  }
+  &__img{
     width: 100%;
-    
-    }
+   }
   }
   .pictures{
   padding-top: 20px;
