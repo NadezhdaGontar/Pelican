@@ -190,9 +190,34 @@
   
   }
  }
+ .shop-products{
+
+ &__description{
+  display: block;
+  &-text{
+  margin-bottom: 20px;
+  width: 100%;
+ }
+ &-img{
+  min-width: 100%;
+   }
+  }
+&__inner{
+  display: block;
+}
+&__item{
+  width: 100%;
+  
+}
+&__item + .shop-products__item{
+    margin-left: 0;
+  }
+ }
 }
 @media (max-width: 500px) {
 .header{
+  margin-bottom: 70px;
+  
   &__top{
     margin-bottom: 50px;
   }
@@ -229,6 +254,13 @@
             'img-4 img-4'
             'img-6 img-6';
   
+  }
 }
-}
+@media (max-width: 320px) {
+  .shop-products__description{
+    &-img{
+      display: none;
+    }
+  }
+ }
 }

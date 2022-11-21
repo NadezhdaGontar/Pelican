@@ -302,14 +302,14 @@
     
   }
   &__description-text{
-    max-width: 650px;
+    width: 50%;
     margin-right: 20px;
 
   }
   &__description-img{
     border-radius: 20px; 
-    height: 300px;
-    max-width: 650px; 
+    min-height: 300px;
+    max-width: 50%; 
   }
 
   &__title{
@@ -326,6 +326,8 @@
     margin-bottom: 10px;
   }
   &__item{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     margin-bottom: 30px;
     border: 1px solid grey;
@@ -345,7 +347,9 @@
     margin-left: 20px;
   }
   &__text{
+    
     padding-bottom: 20px;
+    flex: 1;
   }
   &__link{
     display: block;
