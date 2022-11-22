@@ -256,9 +256,7 @@
 }
 }
 .contact-form {
-  padding-top: 50px;
-  padding-bottom: 100px;
-    
+  padding: 30px 0;  
   &__inner{
     display: flex;
     background: linear-gradient(45deg, #fff1eb, #ace0f9);
@@ -294,16 +292,17 @@
   background-color: #edf1f4;
   
   &__description{
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-size: 24px;
     line-height: 30px;
     display: flex;
     justify-content: space-around;
+    background-color: #fff;
     
   }
   &__description-text{
     width: 50%;
-    margin-right: 20px;
+    margin-left: 20px;
 
   }
   &__description-img{
@@ -315,14 +314,15 @@
   &__title{
     text-align: center;
     font-size: 42px;
+    line-height: 46px;
     font-weight: 600;
+    padding-top: 30px;
     padding-bottom: 30px;
   }
   &__inner{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 20px;
     margin-bottom: 10px;
   }
   &__item{
@@ -395,7 +395,7 @@
           'img-1 img-2 img-3 img-4'
           'img-1 img-5 img-5 img-6';
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .foto-img:nth-of-type(1) {
   grid-area: img-1;
@@ -424,7 +424,7 @@
 }
 }
 .shop-info{
-  padding: 50px 0;
+  padding: 30px 0;
   background-color: #f6ebed;
  &__text{
   padding: 10px;
@@ -440,7 +440,7 @@
  }
 }
 .shop-result{
-  padding: 50px 0;
+  padding: 30px 0;
   background-color: #edf1f4;
   &__title{
     text-align: left;

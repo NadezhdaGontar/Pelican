@@ -5,6 +5,7 @@
 }
 .header{
   z-index: 999;
+  
   &__menu-btn{
    display: block;
    position: absolute;
@@ -106,7 +107,7 @@
  
   }
     &__description-text{
-      padding-right: 0;
+      padding-left: 0;
       font-size: 20px;
       line-height: 28px;
       padding-bottom: 20px;
@@ -195,11 +196,12 @@
  &__description{
   display: block;
   &-text{
-  margin-bottom: 20px;
+  margin-left: 0;
   width: 100%;
  }
  &-img{
   min-width: 100%;
+  margin-bottom: 10px;
    }
   }
 &__inner{
@@ -212,11 +214,20 @@
 &__item + .shop-products__item{
     margin-left: 0;
   }
+ &__foto-inner{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+            'img-2 img-1'
+            'img-3 img-1'
+            'img-4 img-4'
+            'img-5 img-6';
+  }
  }
 }
 @media (max-width: 500px) {
 .header{
-  margin-bottom: 70px;
+  margin-bottom: 85px;
   
   &__top{
     margin-bottom: 50px;
@@ -248,7 +259,7 @@
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
-          'img-2 img-1'
+            'img-2 img-1'
             'img-3 img-1'
             'img-5 img-5'
             'img-4 img-4'
