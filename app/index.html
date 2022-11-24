@@ -1,14 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pelican</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-
- <script src="js/main.min.js"></script> 
+  <header class="header">
+    <div class="container">
+     <div class="header__inner">
+        <div class="header__top">
+           <div class="header__menu-inner">
+             <button class="header__menu-btn">
+              <span></span>
+             </button> 
+             <ul class="header__menu-list">
+                <li class="header__menu-item">
+                   <a class="header__menu-link header__menu-link--active" href="#about">Главная</a>
+                 </li>
+                 <li class="header__menu-item">
+                   <a class="header__menu-link" href="#services">Мастер-классы</a>
+                 </li>
+                  <li class="header__menu-item">
+                   <a class="header__menu-link" href="contacts.html">Контакты
+                   </a>
+                  </li>
+                
+                </ul>
+                <div class="header__contact-link">
+                  <a class="header__contact-tel" href="tel:+9000163506">+7-900-016-35-06</a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+      </div>
+    </header>
+    <main class="main">
+      <section class="about" id="about">
+        <div class="container">
+          <h1 class="about__title">
+          Добро пожаловать в Pelican! 
+          </h1>
+          <h3 class="about__subtitle">
+            Студия кулинарного и кондитерского мастерства
+          </h3>
+        <div class="about__inner">  
+          <p class="about__description-text">
+              Три  с половиной года мы проводим кулинарные и кондитерские мастер-классы, любим то, что делаем и гордимся результатом нашей работы! Ежедневно мы получаем отзывы от наших гостей и участников! Мечтаем, чтобы в каждом доме была любовь к приготовлению еды и царила гармония на кухне!
+          </p>
+          <img class="about__description-img" src="images/5.jpg" alt="">
+        </div>
+        </div>
+      </section>
+     <section class="services" id="services">
+        <div class="container">
+          <h2 class="title">Рады предложить вам следующие услуги:</h2>
+          <div class="services__inner">
+           <div class="services__item">
+            <h3 class="services__title">
+              Ужин с шеф-поваром
+             </h3>
+             <p class="services__text">
+              Как насчет вкусного ужина с вином в студии Pelican, который вы приготовите с шеф-поваром? Наш 
+              шеф-повар Кирилл Иванов повар с 10-им стажем. 
+              Проведите время весело и с пользой!
+             </p>
+             <a href="shop.html" class="services__link" target="_blank">Подробнее</a>
+           </div>
+           <div class="services__item">
+             <h3 class="services__title">
+              Для детей
+             </h3>
+             <p class="services__text">
+              Вход только для детей. Самые популярные рецепты, которые можно приготовить самостоятельно. Наш шеф-повар расскажет как приготовить блюда доступно и интересно. 
+             </p>
+             <a href="shop.html" class="services__link" target="_blank">Подробнее</a>
+            </div>
+           <div class="services__item">
+             <h3 class="services__title">
+              Мастер-классы выходного дня
+             </h3>
+             <p class="services__text">
+                Наши мастер-классы идеально подходят тем, кто давно хотел научиться делать что-то новое для себя. После приготовления обязательно продегустируем результаты своих стараний :-)
+             </p>
+             <a href="shop.html" class="services__link" target="_blank">Подробнее</a>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section class="product-worth">
+        <div class="container">
+          <h2 class="title">С помощью наших мастер-классов вы научитесь:</h2>
+          <div class="product-worth__inner">
+            <ul class="product-worth__items">
+              <li class="product-worth__item">
+                <span class="product-worth__item-text">Готовить разнообразно и вкусно</span>
+              </li>
+              <li class="product-worth__item">
+              <span class="product-worth__item-text"> Откроете для себя новые блюда</span>
+              </li>
+              <li class="product-worth__item">
+               <span class="product-worth__item-text">Научитесь красивой сервировке</span>
+              </li>
+              <li class="product-worth__item">
+                <span class="product-worth__item-text">Освоите науку правильных заготовок</span>
+              </li>
+              <li class="product-worth__item">
+                <span class="product-worth__item-text">Сможете узнать приемы опытных поваров</span>
+              </li>
+              <li class="product-worth__item">
+                <span class="product-worth__item-text">Подбирать напитки к приготовленным блюдам</span>
+              </li>
+            </ul>
+            <img class="product-worth__img" src="images/3.png" alt="">
+          </div>
+        </div>
+     </section>
+    <section class="pictures">
+      <div class="container">
+        <div class="pictures__inner">
+        <a class="pictures-img" href="#">
+          <img src="images/10.jpg" alt="Изображение 1">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/11.jpg" alt="Изображение 2">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/12.jpg" alt="Изображение 3">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/13.jpg" alt="Изображение 4">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/14.jpg" alt="Изображение 5">
+        </a>
+        <a class="pictures-img" href="#">
+         <img src="images/15.jpg" alt="Изображение 6">
+        </a>
+        </div>
+      </div>
+     </section>
+     <section class="contact-form"> 
+      <div class="container">
+        <div class="contact-form__inner">
+          <p class="contact-form__text">
+            Если у вас появились вопросы - оставьте свой номер телефона и мы свяжемся с вами.
+          </p>
+          <form class="form">
+            <input class="form__input" type="text" placeholder="Имя*">
+            <input class="form__input" type="text" placeholder="Телефон*">
+            <input class="form__input" type="text" placeholder="EMAIL*">
+            <button class="form__btn" type="submit">
+              Отправить данные
+            </button>
+          </form>
+        </div>
+      </div>
+     </section> 
+    </main>
+    <footer class="footer">
+        <div class="footer__contacts">
+          <div class="footer__contacts-addr">
+            <span>г. Тверь, проспект Калинина, 14 а</span>
+          </div>
+          <div class="footer__contacts-tel">
+            <a href="tel:+9000163506">+7-900-016-35-06</a>
+         </div>
+          <div class="footer__contacts-email">
+            <a href="mailto:pipa@mail.com">pipa@mail.com</a>
+          </div>
+        </div>
+     </footer>
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/main.min.js"></script> 
 </body>
 </html>

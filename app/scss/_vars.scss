@@ -1,0 +1,27 @@
+$default:#2e2e2e;
+$background: #f2f4f6;
+$border: #cc6263;
+
+
+%nunito-400{
+  font-family: "NunitoSans-Regular";
+  font-weight: 400;
+  font-size: 19px;
+}
+
+%nunito-600{
+  font-family: "NunitoSans-SemiBold";
+  font-weight: 600;
+  font-size: 32px;
+ }
+
+ %nunito-700{
+  font-family: "NunitoSans-Bold";
+  font-weight: 700;
+  font-size: 42px;
+ }
+
+  %nunito-800{
+  font-family: "NunitoSans-ExtraBold";
+  font-weight: 800;
+ }
